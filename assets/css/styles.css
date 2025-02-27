@@ -149,6 +149,7 @@ a {
 
 .hero .hero-sumary .item {
   display: flex;
+  align-items: center;
 }
 
 .hero .hero-sumary .item + .item {

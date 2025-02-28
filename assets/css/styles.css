@@ -270,3 +270,121 @@ a {
 .hero .stats .desc:first-child {
   margin-right: 28px;
 }
+
+/* ============= Popular =============== */
+.popular {
+  padding: 200px 0;
+}
+
+.popular .popular-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.popular .title {
+  color: #171100;
+  font-family: var(--font-heading);
+  font-size: 3.8rem;
+  font-weight: 700;
+  line-height: 1.26;
+  letter-spacing: -0.76px;
+}
+
+.popular .desc {
+  color: #5f5b53;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.67;
+  margin-top: 16px;
+}
+
+.popular .icon:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.popular .icon-left {
+  margin-right: 18px;
+}
+
+.popular .popular-bottom {
+  margin-top: 55px;
+  display: flex;
+}
+
+.popular-bottom .list {
+  display: flex;
+  gap: 30px;
+}
+
+.popular-bottom .item {
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0px 18px 36px 0px rgba(0, 0, 0, 0.05);
+}
+
+.popular-bottom .img {
+  width: 370px;
+  height: 278px;
+  border-radius: 12px 12px 0px 0px;
+  object-fit: cover;
+}
+.popular-bottom .content {
+  padding: 12px 22px 22px;
+}
+.popular-bottom .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.popular-bottom .first-row {
+  margin-top: 0;
+}
+
+.popular-bottom .title {
+  color: #171100;
+  font-family: Poppins;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.67;
+}
+
+.popular-bottom .star {
+  margin-right: 2px;
+}
+
+.popular-bottom .rate {
+  color: #fea31b;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.75;
+}
+
+.popular-bottom .desc {
+  margin-top: 6px;
+  color: #5f5b53;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.86;
+}
+
+.popular-bottom .price {
+  color: #171100;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.67;
+}
+
+.popular-bottom .popupar-btn {
+  color: #fff;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.popular-bottom .popupar-btn:hover {
+  background: #ffb900;
+}

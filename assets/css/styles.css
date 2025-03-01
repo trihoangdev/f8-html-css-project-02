@@ -388,3 +388,78 @@ a {
 .popular-bottom .popupar-btn:hover {
   background: #ffb900;
 }
+
+/* ========= Feedback ========= */
+.feedback {
+  background: #2e2100;
+}
+
+.feedback .feedback-list {
+  display: flex;
+  overflow: hidden;
+}
+
+.feedback .feedback-item {
+  display: flex;
+  flex-shrink: 0;
+  width: 100%;
+  justify-content: space-between;
+  padding: 96px 0;
+}
+
+.feedback .info {
+  width: 14%;
+}
+
+.feedback .avatar {
+  display: block;
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+  border-radius: 72px;
+}
+
+.feedback .full-name {
+  margin-top: 18px;
+  color: #f7f7f7;
+  font-family: var(--font-heading);
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.42;
+}
+
+.feedback .major {
+  color: #bfbcb2;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.86;
+}
+
+.feedback .dots {
+  margin-top: 28px;
+}
+
+.feedback .dot {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 6px;
+  background: #634700;
+}
+
+.feedback .active-dot {
+  background: #ffb900;
+}
+
+.feedback .quote {
+  width: 65%;
+}
+
+.feedback .desc {
+  margin-left: 30px;
+  color: #fff;
+  font-size: 2.6rem;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 1.54;
+}

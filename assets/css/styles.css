@@ -50,6 +50,28 @@ a {
   opacity: 0.9;
 }
 
+.btn-active {
+  background-color: var(--primary-color);
+}
+
+.dots {
+  margin-top: 28px;
+}
+
+.dot {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #634700;
+  cursor: pointer;
+}
+
+.active-dot {
+  background: #ffb900;
+  cursor: default;
+}
+
 /* ============= Header =============== */
 .header {
   background: #fffcf4;
@@ -435,22 +457,6 @@ a {
   line-height: 1.86;
 }
 
-.feedback .dots {
-  margin-top: 28px;
-}
-
-.feedback .dot {
-  display: inline-block;
-  width: 6px;
-  height: 6px;
-  border-radius: 6px;
-  background: #634700;
-}
-
-.feedback .active-dot {
-  background: #ffb900;
-}
-
 .feedback .quote {
   width: 65%;
 }
@@ -536,4 +542,106 @@ a {
   width: 470px;
   height: 440px;
   object-fit: cover;
+}
+
+/* ======== Blog ========= */
+.blog {
+  background: #fffcf4;
+  padding: 96px 0;
+}
+
+.blog .blog-top {
+  text-align: center;
+}
+
+.blog .title {
+  color: #130606;
+  font-family: var(--font-heading);
+  font-size: 3.8rem;
+  font-weight: 700;
+  line-height: 1.26;
+  letter-spacing: -0.76px;
+}
+
+.blog .desc {
+  width: 448px;
+  margin: 16px auto auto;
+  color: #696262;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.75;
+}
+
+.blog .blog-list {
+  margin-top: 55px;
+  display: flex;
+  gap: 30px;
+}
+
+.blog-item {
+  flex: 1;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.05);
+}
+
+.blog-item .content {
+  padding: 20px;
+}
+
+.blog-item img {
+  width: 370px;
+  height: 250px;
+  border-radius: 16px 16px 0px 0px;
+  object-fit: cover;
+}
+
+.blog-item .date {
+  display: flex;
+  align-items: center;
+  color: #5f5b53;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.86;
+}
+
+.blog-item .date::before {
+  content: "";
+  display: inline-block;
+  margin-right: 4px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #ffb900;
+}
+
+.blog-item .seperate {
+  content: "";
+  display: inline-block;
+  margin-top: 12px;
+  width: 160px;
+  height: 1px;
+  border-radius: 0.5px;
+  background: #e2dfda;
+}
+
+.blog-item .title {
+  margin-top: 12px;
+  color: #171100;
+  font-family: Poppins;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1.75;
+}
+
+.blog .blog-btn {
+  font-size: 1.4rem;
+  margin-top: 12px;
+  border-radius: 25px;
+}
+
+.blog .dots {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
 }

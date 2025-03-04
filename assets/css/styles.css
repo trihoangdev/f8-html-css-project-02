@@ -52,7 +52,7 @@ a {
 }
 
 .btn:hover {
-  opacity: 0.9;
+  opacity: 0.8;
 }
 
 .btn-active {
@@ -345,11 +345,6 @@ a {
   margin-top: 16px;
 }
 
-.popular .icon:hover {
-  opacity: 0.9;
-  cursor: pointer;
-}
-
 .popular .icon-left {
   margin-right: 18px;
 }
@@ -368,6 +363,10 @@ a {
   border-radius: 12px;
   background: #fff;
   box-shadow: 0px 18px 36px 0px rgba(0, 0, 0, 0.05);
+}
+
+.popular-bottom .item:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
 }
 
 .popular-bottom .img {

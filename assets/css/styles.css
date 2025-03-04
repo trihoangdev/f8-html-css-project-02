@@ -67,6 +67,10 @@ a {
   cursor: pointer;
 }
 
+.dot:hover {
+  background: #ffb900;
+}
+
 .active-dot {
   background: #ffb900;
   cursor: default;
